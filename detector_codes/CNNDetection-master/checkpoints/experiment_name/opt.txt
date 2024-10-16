@@ -1,0 +1,37 @@
+----------------- Options ---------------
+                     arch: res50                         
+               batch_size: 32                            
+                blur_prob: 0.5                           
+                 blur_sig: [0.1, 2.0]                    
+          checkpoints_dir: ./checkpoints                 
+                class_bal: False                         
+                  classes: ['ai', 'nature']              
+                 cropSize: 224                           
+                 dataroot: /media/aryansingh/58A7-AC9A/RawGenImage/ADM	[default: None]
+          earlystop_epoch: 10                            
+                    epoch: latest                        
+                  gpu_ids: 0                             
+                init_gain: 0.02                          
+                init_type: normal                        
+                  isTrain: True                          	[default: None]
+               jpg_method: pil                           
+                 jpg_prob: 0.5                           
+                 jpg_qual: [50, 95]                      
+                 loadSize: 256                           
+                loss_freq: 100                           
+                     mode: binary                        
+                     name: experiment_name               
+                    niter: 100                           
+                  no_crop: False                         
+                  no_flip: False                         
+                no_resize: False                         
+              num_threads: 8                             
+           resize_or_crop: scale_and_crop                
+                rz_interp: ['bilinear']                  
+          save_epoch_freq: 1                             
+         save_latest_freq: 1000                          
+           serial_batches: False                         
+                   suffix:                               
+              train_split: train                         
+                val_split: val                           
+----------------- End -------------------
